@@ -1,13 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: "Karla", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+    "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: hsl(256, 26%, 20%);
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.dark-violet {
+  border-color: hsl(256, 26%, 20%);
+  color: hsl(256, 26%, 20%);
+}
+
+.bg-dark-violet {
+  background-color: hsl(256, 26%, 20%);
+}
+
+.header {
+  color: #fff;
+}
+
+.header-font {
+  font-family: "DM Serif Display";
+}
+
+.footer {
+  background-color: hsl(0, 0%, 98%);
+}
+
+.footer-title {
+  color: hsl(273, 4%, 51%);
+}
+
+@variants hover {
+  .hover-btn {
+    background-color: hsl(256, 26%, 20%);
+    color: #fff;
+  }
+  .hover-invert-btn {
+    background-color: #fff;
+    color: hsl(256, 26%, 20%);
+  }
 }
