@@ -30,63 +30,45 @@ function Footer() {
           <div className="w-3/12">
             <p className="footer-title">Our company</p>
             <div className="mt-8">
-              <a>
-                <p className="hover:underline">How we work</p>
-              </a>
-              <a>
-                <p className="hover:underline">Why Insure?</p>
-              </a>
-              <a>
-                <p className="hover:underline">View plans</p>
-              </a>
-              <a>
-                <p className="hover:underline">Reviews</p>
-              </a>
+              <p className="hover:underline">How we work</p>
+
+              <p className="hover:underline">Why Insure?</p>
+
+              <p className="hover:underline">View plans</p>
+
+              <p className="hover:underline">Reviews</p>
             </div>
           </div>
           <div className="w-3/12">
             <p className="footer-title">Help me</p>
             <div className="mt-8">
-              <a>
-                <p className="hover:underline">FAQ</p>
-              </a>
-              <a>
-                <p className="hover:underline">Terms of use</p>
-              </a>
-              <a>
-                <p className="hover:underline">Privacy policy</p>
-              </a>
-              <a>
-                <p className="hover:underline">Cookies</p>
-              </a>
+              <p className="hover:underline">FAQ</p>
+
+              <p className="hover:underline">Terms of use</p>
+
+              <p className="hover:underline">Privacy policy</p>
+
+              <p className="hover:underline">Cookies</p>
             </div>
           </div>
           <div className="w-3/12">
             <p className="footer-title">Contact</p>
             <div className="mt-8">
-              <a>
-                <p className="hover:underline">Sales</p>
-              </a>
-              <a>
-                <p className="hover:underline">Support</p>
-              </a>
-              <a>
-                <p className="hover:underline">Live chat</p>
-              </a>
+              <p className="hover:underline">Sales</p>
+
+              <p className="hover:underline">Support</p>
+
+              <p className="hover:underline">Live chat</p>
             </div>
           </div>
           <div className="w-3/12">
             <p className="footer-title">Others</p>
             <div className="mt-8">
-              <a>
-                <p className="hover:underline">Careers</p>
-              </a>
-              <a>
-                <p className="hover:underline">Press</p>
-              </a>
-              <a>
-                <p className="hover:underline">Licenses</p>
-              </a>
+              <p className="hover:underline">Careers</p>
+
+              <p className="hover:underline">Press</p>
+
+              <p className="hover:underline">Licenses</p>
             </div>
           </div>
         </div>
