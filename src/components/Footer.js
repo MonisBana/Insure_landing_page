@@ -6,7 +6,7 @@ import twitter from "../assets/images/icon-twitter.svg";
 import pinterest from "../assets/images/icon-pinterest.svg";
 function Footer() {
   return (
-    <div className="w-full footer">
+    <div className="w-full footer bg-footer-pattern bg-no-repeat bg-top-left">
       <div className="container mx-auto mt-20 p-20">
         <div className="flex flex-row justify-between items-center">
           <img src={logo} alt="logo" className="h-5" />
@@ -30,45 +30,45 @@ function Footer() {
           <div className="w-3/12">
             <p className="footer-title">Our company</p>
             <div className="mt-8">
-              <p className="hover:underline">How we work</p>
+              <p className="mb-2 hover:underline">How we work</p>
 
-              <p className="hover:underline">Why Insure?</p>
+              <p className="mb-2 hover:underline">Why Insure?</p>
 
-              <p className="hover:underline">View plans</p>
+              <p className="mb-2 hover:underline">View plans</p>
 
-              <p className="hover:underline">Reviews</p>
+              <p className="mb-2 hover:underline">Reviews</p>
             </div>
           </div>
           <div className="w-3/12">
             <p className="footer-title">Help me</p>
             <div className="mt-8">
-              <p className="hover:underline">FAQ</p>
+              <p className="mb-2 hover:underline">FAQ</p>
 
-              <p className="hover:underline">Terms of use</p>
+              <p className="mb-2 hover:underline">Terms of use</p>
 
-              <p className="hover:underline">Privacy policy</p>
+              <p className="mb-2 hover:underline">Privacy policy</p>
 
-              <p className="hover:underline">Cookies</p>
+              <p className="mb-2 hover:underline">Cookies</p>
             </div>
           </div>
           <div className="w-3/12">
             <p className="footer-title">Contact</p>
             <div className="mt-8">
-              <p className="hover:underline">Sales</p>
+              <p className="mb-2 hover:underline">Sales</p>
 
-              <p className="hover:underline">Support</p>
+              <p className="mb-2 hover:underline">Support</p>
 
-              <p className="hover:underline">Live chat</p>
+              <p className="mb-2 hover:underline">Live chat</p>
             </div>
           </div>
           <div className="w-3/12">
             <p className="footer-title">Others</p>
             <div className="mt-8">
-              <p className="hover:underline">Careers</p>
+              <p className="mb-2 hover:underline">Careers</p>
 
-              <p className="hover:underline">Press</p>
+              <p className="mb-2 hover:underline">Press</p>
 
-              <p className="hover:underline">Licenses</p>
+              <p className="mb-2 hover:underline">Licenses</p>
             </div>
           </div>
         </div>

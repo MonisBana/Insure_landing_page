@@ -6,6 +6,8 @@ module.exports = {
       backgroundImage: (theme) => ({
         "how-we-work-pattern":
           "url('../src/assets/images/bg-pattern-how-we-work-desktop.svg')",
+        "footer-pattern":
+          "url('../src/assets/images/bg-pattern-footer-desktop.svg')",
       }),
     },
   },
