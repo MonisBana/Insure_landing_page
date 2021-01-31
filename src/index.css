@@ -18,6 +18,10 @@ code {
     monospace;
 }
 
+.very-dark-violet {
+  background-color: hsl(270, 9%, 17%);
+}
+
 .dark-violet {
   border-color: hsl(256, 26%, 20%);
   color: hsl(256, 26%, 20%);
@@ -51,5 +55,11 @@ code {
   .hover-invert-btn {
     background-color: #fff;
     color: hsl(256, 26%, 20%);
+  }
+}
+
+@media screen and (min-height: 700px) and (max-height: 1024px) {
+  .left-pattern {
+    top: 60%;
   }
 }
