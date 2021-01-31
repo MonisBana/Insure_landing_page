@@ -6,6 +6,6 @@ Used [tailwindcss](https://tailwindcss.com/) as a css framework.
 
 [Demo](https://insure-landing-page-mauve.vercel.app/)
 
-![alt text](https://github.com/MonisBana/Insure_landing_page/blob/master/screenshots/Sceenshot1.png?raw=true)
-![alt text](https://github.com/MonisBana/Insure_landing_page/blob/master/screenshots/Sceenshot2.png?raw=true)
-![alt text](https://github.com/MonisBana/Insure_landing_page/blob/master/screenshots/Sceenshot3.png?raw=true)
+![alt text](https://github.com/MonisBana/Insure_landing_page/blob/master/screenshots/Screenshot1.png?raw=true)
+![alt text](https://github.com/MonisBana/Insure_landing_page/blob/master/screenshots/Screenshot2.png?raw=true)
+![alt text](https://github.com/MonisBana/Insure_landing_page/blob/master/screenshots/Screenshot3.png?raw=true)
