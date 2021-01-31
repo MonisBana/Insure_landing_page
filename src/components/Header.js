@@ -15,7 +15,7 @@ function Header() {
       />
 
       <div className="container mx-auto flex flex-col-reverse lg:flex-row">
-        <div className="flex flex-col  w-full lg:w-1/2 flex-wrap items-center text-center lg:text-left px-4 lg:px-0">
+        <div className="flex flex-col  w-full lg:w-1/2 flex-wrap  items-center lg:items-start text-center lg:text-left px-4 lg:px-0">
           <div className="w-32 h-0.5 bg-white hidden lg:block opacity-40 mt-16"></div>
           <p className="text-5xl lg:text-7xl header-font mt-12">
             Humanizing your insurance.
